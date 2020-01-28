@@ -2,5 +2,6 @@
 /home/alvaro/workspace/kafka-json/src/main/java/org/acme/quarkus/sample/fruit/Fruit.java
 /home/alvaro/workspace/kafka-json/src/main/java/org/acme/quarkus/sample/fruit/FruitProcessor.java
 /home/alvaro/workspace/kafka-json/src/main/java/org/acme/quarkus/sample/fruit/json/FruitDeserializer.java
+/home/alvaro/workspace/kafka-json/src/main/java/org/acme/quarkus/sample/fruit/FruitNamesResource.java
 /home/alvaro/workspace/kafka-json/src/main/java/org/acme/quarkus/sample/fruit/PriceResourceImperative.java
 /home/alvaro/workspace/kafka-json/src/main/java/org/acme/quarkus/sample/fruit/FruitPriceResource.java

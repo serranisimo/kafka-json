@@ -29,4 +29,12 @@ public class FruitProcessor  {
         LOG.info("----------------"+fruit.getName()+": "+fruit.getPrice()+"----------------");
         return fruit;
     }
+
+    @Incoming("fruit-out")
+    @Outgoing("my-data-stream-names")
+    @Broadcast
+    public String fuitName(Fruit fruit){
+        LOG.info("The fruit is {}, {}", fruit.getName(), fruit.getPrice());
+        return fruit.getName();
+    }
 }

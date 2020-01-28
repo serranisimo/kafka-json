@@ -1,5 +1,6 @@
 org/acme/quarkus/sample/fruit/FruitProcessor.class
 org/acme/quarkus/sample/fruit/PriceResourceImperative.class
+org/acme/quarkus/sample/fruit/FruitNamesResource.class
 org/acme/quarkus/sample/fruit/FruitPriceResource.class
 org/acme/quarkus/sample/fruit/json/FruitDeserializer.class
 org/acme/quarkus/sample/fruit/FruitGenerator.class

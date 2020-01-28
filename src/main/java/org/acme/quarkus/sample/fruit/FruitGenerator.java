@@ -2,6 +2,8 @@ package org.acme.quarkus.sample.fruit;
 
 import io.quarkus.kafka.client.serialization.JsonbSerializer;
 import io.reactivex.Flowable;
+import io.smallrye.reactive.messaging.annotations.Broadcast;
+import org.eclipse.microprofile.reactive.messaging.Incoming;
 import org.eclipse.microprofile.reactive.messaging.Outgoing;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
